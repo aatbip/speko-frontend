@@ -1,0 +1,110 @@
+* {
+    color: white;
+    font-family: 'Raleway';
+}
+body {
+    background-color:  #0E0B26;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/log-in-background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    background-position: bottom;
+}
+
+
+
+.loginform {
+    background-color: #3D3573;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 2em; */
+    /* box-sizing: border-box; */
+    border-radius: 1.2em;
+    width: 28.5%;
+    height: 55.3%;
+    position: absolute;
+    left: 61.2%;
+    top: 25%;
+    padding-top: 5em;
+}
+
+.form-title {
+    /* width: 353px; */
+/* height: 47px; */
+/* font-family: 'Raleway'; */
+font-style: normal;
+font-weight: 800;
+font-size: 2em;
+text-align: center;
+letter-spacing: -0.025em;
+}
+
+.form-username {
+    background-color: #161139;
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: flex;
+    /* gap: 10px; */
+    margin-top: 4em;
+    border: none;
+    width: 90%;
+}
+
+.password-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #161139;
+    border: none;
+    width: 90%;
+    margin-top: 1.5em;
+    border-radius: 1em;
+   padding-right: 1em; 
+   margin-top: 2em;
+}
+
+.form-password {
+    background-color: #161139;
+    border: none;
+    padding: 14px 16px;
+    border-radius: 1em;
+    margin-right: auto;
+    width: 90%;
+}
+
+.forgot-pass {
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: -0.025em;
+    text-decoration-line: underline;
+    width: 90%;
+    margin-top: 0.5em;
+    
+}
+
+.login-button {
+    background-color: #eadee9;
+    border-radius: 2em;
+    width: 85%;
+    height: 3em;
+    text-align: center;
+    color: black;
+    box-shadow: none;
+    border: none;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.signup-link {
+    color: white;
+    text-align: center;
+    display: flex;
+    letter-spacing: -0.025em;
+    font-weight: 400;
+    font-size: 13px;
+
+}  
