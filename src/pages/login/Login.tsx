@@ -86,7 +86,7 @@ const Login: React.FC<ILogin> = ({ signUp }) => {
               alt="Visible Password"
             ></img>
           </div>
-          <a href="#" className="forgot-pass">
+          <a href="/account-recovery" className="forgot-pass">
             Forgot password?
           </a>
           <button className="login-button">Log In</button>
