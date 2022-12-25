@@ -1,16 +1,16 @@
 import React from "react";
 import "./login.css";
 import { useState } from "react";
-import eyeOff from "./images/eye-off.png";
-import eye from "./images/eye.png";
+import eyeOffLogo from "./images/eye-off.png";
+import eyeLogo from "./images/eye.png";
 interface ILogin {
   signUp: boolean;
 }
 
 type LoginProps = {
-  eye: String;
+  eyeLogo: String;
   visibility: boolean;
-  eyeOff: String;
+  eyeOffLogo: String;
   toggleVisiblity: Function;
   credentials: { username: string; password: string };
 };
@@ -36,8 +36,8 @@ const Login: React.FC<ILogin> = ({ signUp }) => {
   return (
     <>
       <LoginForm
-        eye={eye}
-        eyeOff={eyeOff}
+        eyeLogo={eyeLogo}
+        eyeOffLogo={eyeOffLogo}
         toggleVisiblity={toggleVisibilty}
         visibility={visibility}
         credentials={credentials}
@@ -82,7 +82,7 @@ const Login: React.FC<ILogin> = ({ signUp }) => {
             />
             <img
               onClick={() => toggleVisibilty()}
-              src={visibility ? eye : eyeOff}
+              src={visibility ? eyeLogo : eyeOffLogo}
               alt="Visible Password"
             ></img>
           </div>
