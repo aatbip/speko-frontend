@@ -1,22 +1,7 @@
-import React from 'react'
-import "../header/loginheader.css"
+import React from "react";
 
 const LoginPageHeader = () => {
-  return (
-    <div className = "login-header"> 
-      
-      <div className='logo'>
-        speko
-      </div>
-      
-      <div className='public-discussion'>
-        Go to Public Discussion
+  return <div>Login Page Header</div>;
+};
 
-        <img src="/images/message-icon.png" alt="" className='message' />
-
-      </div>
-    </div>
-  )
-}
-
-export default LoginPageHeader
+export default LoginPageHeader;
