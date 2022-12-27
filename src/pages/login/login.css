@@ -1,15 +1,17 @@
 * {
-    color: white;
     font-family: 'Raleway';
-}
-body {
-    background-color:  #0E0B26;
-    height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url('./images/log-in-background.png');
+}
+body {
+    color: white;
+    background-color: #0E0B26;
+}
+ .login-background {
+    height: 100vh;
+    background-image: url('/public/images/log-in-background.png');
     background-repeat: no-repeat;
-    background-size: 100% 95%;
+    background-size: 100%;
     background-position: bottom;
 }
 
@@ -21,8 +23,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* padding: 2em; */
-    /* box-sizing: border-box; */
+   
     border-radius: 1.2em;
     width: 28.5%;
     height: 55.3%;
@@ -33,9 +34,7 @@ body {
 }
 
 .form-title {
-    /* width: 353px; */
-/* height: 47px; */
-/* font-family: 'Raleway'; */
+  
 font-style: normal;
 font-weight: 800;
 font-size: 2em;
@@ -48,7 +47,6 @@ letter-spacing: -0.025em;
     border-radius: 12px;
     padding: 14px 16px;
     display: flex;
-    /* gap: 10px; */
     margin-top: 4em;
     border: none;
     width: 90%;
@@ -107,4 +105,4 @@ letter-spacing: -0.025em;
     font-weight: 400;
     font-size: 13px;
 
-}  
+}   
