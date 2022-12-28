@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const LoginPageHeader = () => {
-  return (
-    <div>LoginPageHeader</div>
-  )
-}
+  return <div>Login Page Header</div>;
+};
 
-export default LoginPageHeader
+export default LoginPageHeader;
